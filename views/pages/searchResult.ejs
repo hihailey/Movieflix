@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <title>Movieflix</title>
+</head>
+
+<body>
+  
+  <% if (searchFound == true) {%>
+    <h1><%= movieName %></h1>
+    <p><%= movieDesc %></p>
+  <% }
+    else { %>
+      <h2>Movie can not found</h2>  
+  <% } %>
+
+  <a href=<%= homepage %>>Go Back</a>
+
+</body>
+
+</html>
